@@ -68,8 +68,7 @@ If the core is not installed yet, AioSocks installs it for you on first run.
 Download the panel script and run it as root:
 
 ```bash
-curl -fsSL -o aiosocks.sh https://raw.githubusercontent.com/aioexp/AioSocks/main/aiosocks.sh
-sudo bash aiosocks.sh
+bash <(curl -fsSL https://raw.githubusercontent.com/aioexp/AioSocks/main/aiosocks.sh)
 ```
 
 On first run AioSocks will:
